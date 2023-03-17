@@ -11,3 +11,14 @@ body {
     margin: 0;
     overflow: hidden;
 }
+
+.btn {
+    background-color: rebeccapurple;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 1rem;
+    padding: 1.5rem 3rem;
+    
+}
