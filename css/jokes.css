@@ -1,8 +1,4 @@
-
-* {
-    box-sizing: border-box;
-}
-
+@import url('https://fonts.googleapis.com/css2?family=Khula&display=swap');
 
 body {
     background-color: yellow;
@@ -12,4 +8,5 @@ body {
     justify-content: center;
     margin: 0;
     overflow: hidden;
+    font-family: 'Khula', sans-serif;
 }
