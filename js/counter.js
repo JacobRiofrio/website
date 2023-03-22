@@ -1,9 +1,9 @@
 const counters = document.querySelectorAll('.counter')
 
 counters.forEach(counter => {
-    counterinnerText = '0'
+    counter.innerText = '0'
 
-    const.updateCounter = () => {
+    const updateCounter = () => {
         const target = +counter.getAttribute('data-target')
         const c = +counter.innerText
 
