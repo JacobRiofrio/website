@@ -12,8 +12,9 @@ for(let i = 0; i < SQUARES; i++) {
 
 function setColor(element) {
     const color = getRandomColor()
+    element.style.background = color
 }
 
 function getRandomColor() {
-    return colors[Math.floor(Math.random()*5)]
+    return colors[Math.floor(Math.random()*colors.length)]
 }
