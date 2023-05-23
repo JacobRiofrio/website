@@ -11,3 +11,14 @@ body {
     margin: 0;
     background-color: lightgreen;
 }
+
+h1 {
+    color: white;
+    text-align: center;
+  }
+
+h {
+    color: black;
+    text-align: center;
+    
+}
